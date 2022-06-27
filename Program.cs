@@ -21,8 +21,24 @@
 // 782 -> 8 
 // 918 -> 1
 
-int number= new Random().Next(100,1000);
-Console.WriteLine($"Значение : {number}");
-int digit1=number/10%10;
+// int number= new Random().Next(100,1000);
+// Console.WriteLine($"Значение : {number}");
+// int digit1=number/10%10;
 
-Console.WriteLine(digit1);
+// Console.WriteLine(digit1);
+
+//  Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+// 645 -> 5
+// 78 -> третьей цифры нет
+// 32679 -> 6
+// 1020 -> 2
+
+// первый способ
+// int Number= new Random().Next(10,100000);
+// Console.WriteLine($"Значение : {Number}");
+// string number=Convert.ToString(Number);
+// Console.WriteLine(number[2]);
+
+// второй способ
+// string num=Console.ReadLine();
+// Console.WriteLine(num[2]);
